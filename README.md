@@ -9,6 +9,20 @@
 
 JavaScript functions to check types of arrays.
 
+## Download ##
+
+Using **npm**:
+
+```sh
+npm i typesafe-array
+```
+
+Using **Yarn**:
+
+```sh
+yarn add typesafe-array
+```
+
 ## Contributing ##
 
 Read through the [TypeSafe-Array Contribution Guidelines](./CONTRIBUTING.md)
