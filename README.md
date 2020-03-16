@@ -7,7 +7,7 @@
 
 ## About ##
 
-JavaScript functions to check types of arrays.
+**JavaScript** functions to check types of arrays.
 
 ## Download ##
 
