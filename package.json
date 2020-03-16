@@ -1,0 +1,48 @@
+{
+	"name": "typesafe-array",
+	"version": "1.0.0",
+	"description": "Functions to check types of arrays",
+	"keywords": [
+		"types",
+		"arrays",
+		"typesafe"
+	],
+	"homepage": "https://github.com/mfederczuk/typesafe-array-js#readme",
+	"bugs": {
+		"url": "https://github.com/mfederczuk/typesafe-array-js/issues"
+	},
+	"license": "GPL-3.0-or-later",
+	"author": "Michael Federczuk <federczuk.michael@protonmail.com>",
+	"contributors": [
+		"Michael Federczuk <federczuk.michael@protonmail.com>"
+	],
+	"main": "out/index.js",
+	"types": "types/index.d.ts",
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/mfederczuk/typesafe-array-js.git"
+	},
+	"scripts": {
+		"lint": "./node_modules/.bin/eslint $(find . -type f -wholename './src/*' -name '*.ts' )",
+		"build": "./node_modules/.bin/tsc",
+		"clean": "rm -rf ./out ./types",
+		"rebuild": "npm run clean && npm run build",
+
+		"test": "npm run lint && npm run build && ./node_modules/.bin/ts-node ./test/test.ts",
+
+		"install": "npm run build",
+		"preuninstall": "npm run clean",
+		"prepublishOnly": "npm run test"
+	},
+	"dependencies": {
+		"@mfederczuk/deeptools": "^1.0.3",
+		"@types/node": "^13.9.1",
+		"typescript": "^3.8.3"
+	},
+	"devDependencies": {
+		"@typescript-eslint/eslint-plugin": "^2.24.0",
+		"@typescript-eslint/parser": "^2.24.0",
+		"eslint": "^6.8.0",
+		"ts-node": "^8.6.2"
+	}
+}
