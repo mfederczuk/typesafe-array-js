@@ -23,6 +23,21 @@ Using **Yarn**:
 yarn add typesafe-array
 ```
 
+## Examples ##
+
+```typescript
+import * as typesafeArray from "typesafe-array";
+
+typesafeArray.number[1]([1, 2, 3]);   // true
+typesafeArray.number[1]([1, "2", 3]); // false
+
+typesafeArray.number[2]([[1, 2], [3, 4], [5, 6]]); // true
+typesafeArray.number[2]([[1, 2], 3, [4, 5], 6]);   // false
+
+typesafeArray.number[1]([]);        // true
+typesafeArray.number[1]([], false); // false
+```
+
 ## Contributing ##
 
 Read through the [TypeSafe-Array Contribution Guidelines](./CONTRIBUTING.md)
