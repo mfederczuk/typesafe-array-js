@@ -5,9 +5,9 @@
 
 # TypeSafe-Array #
 
-[version_shield]: https://img.shields.io/badge/version-v1.0.0-informational.svg
-[release_page]: https://github.com/mfederczuk/typesafe-array-js/releases/tag/v1.0.0 "Release v1.0.0"
-[![version: v1.0.0][version_shield]][release_page]
+[version_shield]: https://img.shields.io/badge/version-v1.1.0-informational.svg
+[release_page]: https://github.com/mfederczuk/typesafe-array-js/releases/tag/v1.1.0 "Release v1.1.0"
+[![version: v1.1.0][version_shield]][release_page]
 [![Changelog](https://img.shields.io/badge/-Changelog-informational.svg)](CHANGELOG.md "Changelog")
 
 ## About ##
