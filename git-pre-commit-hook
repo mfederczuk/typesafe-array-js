@@ -1,0 +1,8 @@
+#!/bin/sh
+# -*- sh -*-
+# vim: set syntax=sh
+# code: language=shellscript
+
+# SPDX-License-Identifier: CC0-1.0
+
+npm run prepare
