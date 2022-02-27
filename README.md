@@ -1,27 +1,18 @@
+<!--
+  Copyright (c) 2022 Michael Federczuk
+  SPDX-License-Identifier: CC-BY-SA-4.0
+-->
+
 # TypeSafe-Array #
 
-[version_shield]: https://img.shields.io/badge/version-1.0.0-blue.svg
-[latest_release]: https://github.com/mfederczuk/typesafe-array/releases/latest "Latest Release"
-[![version: 1.0.0][version_shield]][latest_release]
-[![Changelog](https://img.shields.io/badge/-Changelog-blue)](./CHANGELOG.md "Changelog")
+[version_shield]: https://img.shields.io/badge/version-v1.0.0-informational.svg
+[release_page]: https://github.com/mfederczuk/typesafe-array-js/releases/tag/v1.0.0 "Release v1.0.0"
+[![version: v1.0.0][version_shield]][release_page]
+[![Changelog](https://img.shields.io/badge/-Changelog-informational.svg)](CHANGELOG.md "Changelog")
 
 ## About ##
 
 **JavaScript** functions to check types of arrays.
-
-## Download ##
-
-Using **npm**:
-
-```sh
-npm i typesafe-array
-```
-
-Using **Yarn**:
-
-```sh
-yarn add typesafe-array
-```
 
 ## Usage ##
 
@@ -148,11 +139,26 @@ typesafeArray.number[1]([]);        // true
 typesafeArray.number[1]([], false); // false
 ```
 
+## Installation ##
+
+Using **npm**:
+
+```sh
+npm i typesafe-array
+```
+
+Using **Yarn**:
+
+```sh
+yarn add typesafe-array
+```
+
 ## Contributing ##
 
-Read through the [TypeSafe-Array Contribution Guidelines](./CONTRIBUTING.md)
- if you want to contribute to this project.
+Read through the [Contribution Guidelines](CONTRIBUTING.md) if you want to contribute to this project.
 
 ## License ##
 
-[GNU GPLv3+](./LICENSE)
+**TypeSafe-Array** is licensed under both the [**Mozilla Public License 2.0**](LICENSES/MPL-2.0.txt) AND the
+[**Apache License 2.0**](LICENSES/Apache-2.0.txt).  
+For more information about copying and licensing, see the [`COPYING.txt`](COPYING.txt) file.
