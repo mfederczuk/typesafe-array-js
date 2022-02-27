@@ -11,6 +11,20 @@ All notable changes to this project will be documented in this file.
 The format is based on [**Keep a Changelog v1.0.0**](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [**Semantic Versioning v2.0.0**](https://semver.org/spec/v2.0.0.html).
 
+## Unreleased ##
+
+### Changed ###
+
+* Switched licenses from `GPL-3.0-or-later` to `MPL-2.0 AND Apache-2.0`
+
+### Fixed ###
+
+* **TypeScript** is not anymore a (non-dev) dependency
+
+### Security ##
+
+* Updated dependencies
+
 ## [v1.0.0] - 2020-04-10 ##
 
 [v1.0.0]: https://github.com/mfederczuk/typesafe-array-js/releases/tags/v1.0.0

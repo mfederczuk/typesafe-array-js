@@ -3,6 +3,8 @@
  * SPDX-License-Identifier: MPL-2.0 AND Apache-2.0
  */
 
+/* eslint-disable @typescript-eslint/ban-types */
+
 import { deepFreeze } from "@mfederczuk/deeptools";
 
 const DEFAULT_ALLOW_EMPTY = true;
